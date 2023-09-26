@@ -1,0 +1,22 @@
+﻿生成启动时间为 2022/11/5 13:46:21。
+     1>项目“E:\work_space\兼职\des_encdec\des_encdec\desEnc\desEnc.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\desEnc.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt desEncDlg.cpp
+         desEncDlg.cpp
+     1>e:\work_space\兼职\des_encdec\des_encdec\desenc\desencdlg.cpp(237): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>e:\work_space\兼职\des_encdec\des_encdec\desenc\desencdlg.cpp(224): warning C4101: “ret”: 未引用的局部变量
+     1>e:\work_space\兼职\des_encdec\des_encdec\desenc\desencdlg.cpp(334): warning C4101: “ret”: 未引用的局部变量
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work_space\兼职\des_encdec\des_encdec\Debug\desEnc.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"E:\work_space\兼职\des_encdec\des_encdec\Debug\desEnc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work_space\兼职\des_encdec\des_encdec\Debug\desEnc.lib" /MACHINE:X86 Debug\desEnc.res
+         Debug\aes.obj
+         Debug\des.obj
+         Debug\desEnc.obj
+         Debug\desEncDlg.obj
+         Debug\stdafx.obj
+         desEnc.vcxproj -> E:\work_space\兼职\des_encdec\des_encdec\Debug\desEnc.exe
+     1>已完成生成项目“E:\work_space\兼职\des_encdec\des_encdec\desEnc\desEnc.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.85
